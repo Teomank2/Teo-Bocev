@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   }
+
+:root{
+    font-family: Roboto, sans-serif;
+    font-style: regular;
+    font-size: 18px;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    color: rgb(255, 255, 255);
+    background-image: url(https://picsum.photos/id/668/1000/800);
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.programs {
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+    padding: 20px;
+    width: 100vw;
+}
+
+.program {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    color: white;
+}
+
+.program img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+.program p {
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.article{
+    display: flex;
+    margin-top: 10%;
+}
+.description{
+    flex-direction: column;
+    margin-bottom: 20%;
+    float: righ;
+}
+
+img {
+ width: 30%;
+ height: auto;
+ float: left;
+ margin-right: 10%;
+}
+
+
+
+
+
+
+
