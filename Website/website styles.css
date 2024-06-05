@@ -39,14 +39,13 @@ article{
     align-items: center;
 }
 .intro{
-    background: radial-gradient(circle at center, rgb(21, 21, 21) 0.15rem, transparent 0);
+    background: radial-gradient(circle at center, #e6570b 0.15rem, transparent 0);
     background-size: 1rem 1rem;
     background-repeat: round;
     background-position: 80%;
     display: flex;
     flex: content;
     flex-direction: column;
-
 }
 .Panels{
     scale: 80%;
@@ -143,26 +142,26 @@ article{
 .Origins-text-1{
     font-size: 20px;
     border-spacing: 1cm;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 150px;
+    margin-right: 150px;
 }
 .Origins-text-2{
     font-size: 20px;
     border-spacing: 1cm;
     margin-top: 40px;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 150px;
+    margin-right: 150px;
     color: #e6570b;
 }
 @media screen and (max-width: 700px){
     .Origins-text-1{
-        margin-left: 10px;
-        margin-right: 10px;
+        margin-left: 10%;
+        margin-right: 10%;
     }
     
     .Origins-text-2{
-        margin-left: 10px;
-        margin-right: 10px;
+        margin-left: 10%;
+        margin-right: 10%;
     }
 }
     
@@ -244,14 +243,12 @@ article{
 .Comic-page a{
     cursor: pointer;
     transition: all 0.3s ease-out;
+    text-decoration: none;
 }
 .Comic-page a:hover{
     transition: all 0.3s ease-out;
     transform: scale(1.2); 
-
 }
-
-
 .Marvel{
     background-color: rgb(8, 201, 156);
     border-style: solid;
@@ -294,6 +291,7 @@ article{
     grid-column: 3/5;
     object-fit:scale-down;
     padding: 10%;
+    text-decoration: none;
 }
 .Comic-page img{
     display: block;
@@ -313,7 +311,7 @@ article{
     visibility: hidden;
     opacity: 0;
   }
-.overlay:target {
+.overlay:target{
     visibility: visible;
     opacity: 1;
   }
@@ -323,7 +321,7 @@ article{
     flex: content;
     flex-direction: column;
     align-items: center;
-    margin: 90px auto;
+    margin: 40px auto;
     padding: 20px;
     background: #fff;
     border-radius: 5px;
@@ -331,11 +329,15 @@ article{
     position: relative;
     transition: all 5s ease-in-out;
   }
+
   
 .popup h2 {
-    margin-bottom: 15px;
-    color: #333;
+    margin-top: -40px;
+    color:#e6570b
   }
+.content{
+    margin-top: -40px;
+}
 .popup .close {
     position: absolute;
     top: 20px;
@@ -350,7 +352,7 @@ article{
     color: #e6570b;
   }
 .popup .content {
-    max-height: 30%;
+    max-height: 10%;
     overflow: auto;
   }
   @media screen and (max-width: 700px){
@@ -363,15 +365,57 @@ article{
       font-size: small;
     }
   }
-.Step-1{
+.Tutorial{
+    display: flex;
+    flex: content;
+    flex-direction: column;
     color: #e6570b;
+  }
+  .Tutorial h2{
+    font-size: 220%;
+    padding: 3cm;
+    align-self: center;
+    justify-content: center;
+  }
+
+.Steps{
+    display: flex;
+    flex: content;
+    border-width: 4px;
+    float: right;
+    font-size: 20px;
+    border-spacing: 1cm;
+    margin-left: 10%;
+    margin-right: 10%;
 }
-.Step-2{
-    color: #e6570b;
+.Alex-Ross{
+    display: flex;
+    flex: content;
+    flex-direction: column;
+    align-items: center;
+    border-width: 4px;
+    float: right;
+    scale: 60%;
 }
-.Step-title-3{
-    color: #e6570b;
+.Alex-Ross img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: fixed;
+    object-fit: scale-down;
 }
+.Alex-Ross p{
+    font-size: 25px;
+
+}
+@media screen and (max-width: 700px){
+    .Steps{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+
+
 footer{
     background-color: #e6570b;
 }
